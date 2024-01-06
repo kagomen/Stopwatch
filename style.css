@@ -1,0 +1,44 @@
+@charset 'utf-8';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 80px auto;
+  width: 270px;
+  padding: 32px 24px;
+  border-radius: 24px;
+  text-align: center;
+  background: #00E;
+}
+
+#timer {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 48px;
+  margin-bottom: 24px;
+  color: #FFF
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #00E;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  user-select: none;
+}
+
+button:active {
+  transform: translateY(3px);
+}
+
+button:disabled {
+  opacity: 0.7;
+  transform: none;
+}
